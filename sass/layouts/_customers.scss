@@ -1,0 +1,26 @@
+.icon-logo {
+  fill: $icon-color;
+  width: 88px;
+  height: 45px;
+}
+.section-list.customers-icon {
+  align-items: center; 
+  justify-content: center; 
+}
+.customers .customers-item:not(:last-child) {
+  margin-right: 30px;
+}
+.customers-link {
+  width: 170px;
+  height: 90px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  border: solid 1px;
+  color: inherit;
+  border-radius: 4px;
+}
+.customers-link:hover .icon-logo,
+.customers-link:focus .icon-logo {
+  fill: $accent-color;
+}

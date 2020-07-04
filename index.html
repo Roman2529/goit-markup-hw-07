@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body class="page">
     <header>
@@ -57,7 +57,7 @@
           <h1 class="hero-title">
             Эффективные решения для вашего бизнеса
           </h1>
-          <button class="button" data-modal-open>Заказать услугу</button>
+          <button class="button button-logo" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <section class="section advantages">
@@ -116,7 +116,7 @@
       </section>
       <section class="section team">
         <div class="container">
-          <h2 class="section-title title-team">Наша команда</h2>
+          <h2 class="section-title">Наша команда</h2>
           <ul class="section-list">
             <li class="team-item">
               <img src="./img/img3.jpg" alt="" width="270" />
@@ -302,7 +302,7 @@
           </ul>
         </div>
       </section>
-      <section class="section customers">
+      <section class="section">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="section-list customers-icon">
@@ -430,7 +430,6 @@
         <div class="footer-secondary-block">
           <form class="form-footer">
             <b class="footer-title uppercase">Подпишитесь на рассылку</b>
-            <!-- <label for="mail"></label>Почта</label> -->
             <div class="footer-form-position">
               <input
                 class="input-footer"
@@ -439,7 +438,7 @@
                 id="mail-footer"
                 placeholder="E-mail"
               />
-              <button type="submit" class="button-footer">
+              <button type="submit" class="button button-footer">
                 Подписаться
                 <svg class="icon-telegram">
                   <use href="./sprite/symb.svg#icon-telegram"></use>
@@ -450,7 +449,6 @@
         </div>
       </div>
     </footer>
-
     <div class="backdrop is-hidden" data-modal>
       <div class="backdrop-row">
         <div class="modal">
@@ -526,12 +524,11 @@
                 <a class="form-link" href="#">Условия договора</a></label
               >
             </div>
-            <button type="submit" class="button-form">Отправить</button>
+            <button type="submit" class="button button-form">Отправить</button>
           </form>
         </div>
       </div>
     </div>
-
     <script src="./js/modal.js"></script>
   </body>
 </html>
