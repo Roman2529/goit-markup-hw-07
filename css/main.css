@@ -526,6 +526,11 @@ main {
   fill: #2196f3;
 }
 
+.customers-link:hover,
+.customers-link:focus {
+  border-color: #2196f3;
+}
+
 .footer-first-block {
   display: block;
   font-size: 14px;
@@ -541,6 +546,10 @@ main {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-nav {
+  font-style: normal;
 }
 
 .container.footer-blocks {

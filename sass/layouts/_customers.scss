@@ -24,3 +24,7 @@
 .customers-link:focus .icon-logo {
   fill: $accent-color;
 }
+.customers-link:hover,
+.customers-link:focus {
+  border-color: $accent-color;
+}
