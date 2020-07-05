@@ -32,6 +32,18 @@
   border-style: none;
   border-radius: 4px;
 }
+.button-list {
+  padding-left: 0px;
+  padding-bottom: 34px;
+  display: flex;
+  justify-content: center;
+}
+.button-item:not(:last-child) {
+  margin-right: 8px;
+}
+.button-link .button-item:not(:last-child) {
+  margin-right: 8px;
+}
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: $white-title-text-color;

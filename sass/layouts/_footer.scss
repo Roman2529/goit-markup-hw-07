@@ -1,4 +1,4 @@
-.footer-container {
+.footer-first-block {
   display: block;
   font-size: 14px;
   line-height: 1.71;
@@ -14,7 +14,6 @@
 }
 .container.footer-blocks {
   display: flex;
-  /* align-items: center; */
 }
 .footer-blocks > div {
   width: calc((50% - 45px) / 2);
@@ -54,9 +53,6 @@
 .footer-adress:hover,
 .footer-adress:focus {
   color: $accent-color;
-}
-.footer-nav {
-  font-style: normal;
 }
 .footer-title {
   color: $white-title-text-color;

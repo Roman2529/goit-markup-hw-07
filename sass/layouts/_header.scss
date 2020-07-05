@@ -79,3 +79,18 @@
 .adress-logo {
   margin-right: 10px;
 }
+ .logo {
+  color: $accent-color;
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  margin-right: 85px;
+} 
+ .logo-color {
+  color: $title-text-color;
+}
+ .logo-color-footer {
+  color: $white-title-text-color;
+}
